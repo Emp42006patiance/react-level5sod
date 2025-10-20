@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 
 export default function Login() {
-const [Names, yourNames] = useState("jackson")
+const [Names, yourNames] = useState("")
 const [password, yourPassword] = useState("")
 
 let navitation_Of_Pages=useNavigate()
