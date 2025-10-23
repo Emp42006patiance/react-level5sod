@@ -20,15 +20,18 @@ console.log("failed to insert user in localstorage but already stored oin usesta
 }
   return (
     <div>
+      <form method='post' > 
       <h1>THIS MY LOGIN PAGE FROM PAGE FORDER </h1>
       <fieldset>
       NAMES:<input type='text' value={Names} onChange={(e)=>yourNames(e.target.value)} placeholder='john doe'/>
       <br />
+      <br />
       PASSWORD:<input type='password' value={password} onChange={(e)=>yourPassword(e.target.value)} placeholder='A@p~K2&/?[hack-_-on]'/>
       <br /> 
+      <br />
       <button onClick={Handling_requests}>LOGIN</button>
       </fieldset>
-      
+      </form>
     </div>
   )
 }
